@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BMICalculator">
-        <activity android:name=".MainActivity">
+        <activity android:name=".BmiActivity"></activity>
+        <activity android:name=".MainActivity" />
+        // use for to set  the priority first to splash
+        <activity android:name=".splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

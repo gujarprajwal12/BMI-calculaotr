@@ -6,22 +6,22 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class BmiActivity extends AppCompatActivity {
 
-    android.widget.Button mcalculatebmi;
+    android.widget.Button mrecalculatebmi;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_bmi);
 
         getSupportActionBar().hide();
+        mrecalculatebmi = findViewById(R.id.REcalculatebmi);
 
-        mcalculatebmi = findViewById(R.id.calculatebmi);
-
-        mcalculatebmi.setOnClickListener(new View.OnClickListener( ) {
+        mrecalculatebmi.setOnClickListener(new View.OnClickListener( ) {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent( MainActivity.this,BmiActivity.class );
+                Intent intent = new Intent( BmiActivity.this,MainActivity.class );
                 startActivity(intent);
                 finish();
             }

@@ -34,7 +34,7 @@
            android:layout_toStartOf="@+id/centerVerticalline"
            android:background="@drawable/malefemalnotfocus"
            android:layout_above="@+id/heightlayout"
-           android:layout_marginBottom="35dp"
+           android:layout_marginBottom="25dp"
            android:layout_marginLeft="20dp"
            android:layout_marginRight="20dp"
            android:id="@+id/male"
@@ -45,7 +45,7 @@
                android:layout_height="170px"
                android:layout_above="@+id/textmale"
                android:layout_marginBottom="20dp"
-               android:src="@drawable/ic_launcher_background"
+               android:src="@drawable/male"
                android:layout_centerInParent="true"
                >
 
@@ -75,7 +75,7 @@
         android:layout_toEndOf="@+id/centerVerticalline"
         android:background="@drawable/malefemalnotfocus"
         android:layout_above="@+id/heightlayout"
-        android:layout_marginBottom="35dp"
+        android:layout_marginBottom="25dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:id="@+id/female"
@@ -86,7 +86,7 @@
             android:layout_height="170px"
             android:layout_above="@+id/textfemale"
             android:layout_marginBottom="20dp"
-            android:src="@drawable/ic_launcher_background"
+            android:src="@drawable/female"
             android:layout_centerInParent="true"
             >
 
@@ -170,10 +170,10 @@
             android:layout_marginLeft="20dp" >
 
             <ImageView
+                android:id="@+id/dercementweight"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/ic_launcher_background"
-                android:id="@+id/dercementweight"
+                android:src="@drawable/neagative_sign"
 
                 >
 
@@ -198,7 +198,7 @@
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/ic_launcher_background"
+                android:src="@drawable/pluse_sign"
                 android:id="@+id/inccementweight"
 
                 >
@@ -283,7 +283,7 @@
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/ic_launcher_background"
+                android:src="@drawable/neagative_sign"
                 android:id="@+id/dercementAge"
 
                 >
@@ -309,7 +309,7 @@
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/ic_launcher_background"
+                android:src="@drawable/pluse_sign"
                 android:id="@+id/inccementAge"
 
                 >
