@@ -211,14 +211,6 @@
 
 
 
-
-
-
-
-
-
-
-
     </RelativeLayout>
 
 
@@ -424,6 +416,7 @@
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="10dp"
         android:progressTint="@color/purple_700"
+        android:thumbTint="@color/white"
         android:layout_marginRight="10dp"
         android:id="@+id/SeekBarforheight"
         >
@@ -444,12 +437,12 @@
         android:textColor="@color/white"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:background="@drawable/buttonbackground"
+
         android:textStyle="bold">
 
     </android.widget.Button>
 
-
+//android:background="@drawable/buttonbackground"
 
 
 
